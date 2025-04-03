@@ -1,0 +1,3021 @@
+Simian JIT PDES Engine (1.65)
+(c) Copyright 2015-. Triad National Security, LLC. All rights reserved. Released under BSD 3-clause license.
+Author: Nandakishore Santhi (with other contributors as acknowledged in source code)
+
+===================================================
+------------SIMIAN-PIE JIT PDES ENGINE-------------
+------------       VERSION: 1.65      -------------
+===================================================
+MPI: OFF
+===================================================
+
+Node[0]: Running on rank 0
+Node[1]: Running on rank 0
+Node[2]: Running on rank 0
+Node[3]: Running on rank 0
+Node[4]: Running on rank 0
+Node[5]: Running on rank 0
+Node[6]: Running on rank 0
+Node[7]: Running on rank 0
+Node[8]: Running on rank 0
+Node[9]: Running on rank 0
+Node[10]: Running on rank 0
+Node[11]: Running on rank 0
+Node[12]: Running on rank 0
+Node[13]: Running on rank 0
+Node[14]: Running on rank 0
+Node[15]: Running on rank 0
+Node[16]: Running on rank 0
+Node[17]: Running on rank 0
+Node[18]: Running on rank 0
+Node[19]: Running on rank 0
+Node[20]: Running on rank 0
+Node[21]: Running on rank 0
+Node[22]: Running on rank 0
+Node[23]: Running on rank 0
+Node[24]: Running on rank 0
+Node[25]: Running on rank 0
+Node[26]: Running on rank 0
+Node[27]: Running on rank 0
+Node[28]: Running on rank 0
+Node[29]: Running on rank 0
+Node[30]: Running on rank 0
+Node[31]: Running on rank 0
+Node[32]: Running on rank 0
+Node[33]: Running on rank 0
+Node[34]: Running on rank 0
+Node[35]: Running on rank 0
+Node[36]: Running on rank 0
+Node[37]: Running on rank 0
+Node[38]: Running on rank 0
+Node[39]: Running on rank 0
+Node[40]: Running on rank 0
+Node[41]: Running on rank 0
+Node[42]: Running on rank 0
+Node[43]: Running on rank 0
+Node[44]: Running on rank 0
+Node[45]: Running on rank 0
+Node[46]: Running on rank 0
+Node[47]: Running on rank 0
+Node[48]: Running on rank 0
+Node[49]: Running on rank 0
+Node[50]: Running on rank 0
+Node[51]: Running on rank 0
+Node[52]: Running on rank 0
+Node[53]: Running on rank 0
+Node[54]: Running on rank 0
+Node[55]: Running on rank 0
+Node[56]: Running on rank 0
+Node[57]: Running on rank 0
+Node[58]: Running on rank 0
+Node[59]: Running on rank 0
+Node[60]: Running on rank 0
+Node[61]: Running on rank 0
+Node[62]: Running on rank 0
+Node[63]: Running on rank 0
+Node[64]: Running on rank 0
+Node[65]: Running on rank 0
+Node[66]: Running on rank 0
+Node[67]: Running on rank 0
+Node[68]: Running on rank 0
+Node[69]: Running on rank 0
+Node[70]: Running on rank 0
+Node[71]: Running on rank 0
+Node[72]: Running on rank 0
+Node[73]: Running on rank 0
+Node[74]: Running on rank 0
+Node[75]: Running on rank 0
+Node[76]: Running on rank 0
+Node[77]: Running on rank 0
+Node[78]: Running on rank 0
+Node[79]: Running on rank 0
+Node[80]: Running on rank 0
+Node[81]: Running on rank 0
+Node[82]: Running on rank 0
+Node[83]: Running on rank 0
+Node[84]: Running on rank 0
+Node[85]: Running on rank 0
+Node[86]: Running on rank 0
+Node[87]: Running on rank 0
+Node[88]: Running on rank 0
+Node[89]: Running on rank 0
+Node[90]: Running on rank 0
+Node[91]: Running on rank 0
+Node[92]: Running on rank 0
+Node[93]: Running on rank 0
+Node[94]: Running on rank 0
+Node[95]: Running on rank 0
+Node[96]: Running on rank 0
+Node[97]: Running on rank 0
+Node[98]: Running on rank 0
+Node[99]: Running on rank 0
+Node[100]: Running on rank 0
+Node[101]: Running on rank 0
+Node[102]: Running on rank 0
+Node[103]: Running on rank 0
+Node[104]: Running on rank 0
+Node[105]: Running on rank 0
+Node[106]: Running on rank 0
+Node[107]: Running on rank 0
+Node[108]: Running on rank 0
+Node[109]: Running on rank 0
+Node[110]: Running on rank 0
+Node[111]: Running on rank 0
+Node[112]: Running on rank 0
+Node[113]: Running on rank 0
+Node[114]: Running on rank 0
+Node[115]: Running on rank 0
+Node[116]: Running on rank 0
+Node[117]: Running on rank 0
+Node[118]: Running on rank 0
+Node[119]: Running on rank 0
+Node[120]: Running on rank 0
+Node[121]: Running on rank 0
+Node[122]: Running on rank 0
+Node[123]: Running on rank 0
+Node[124]: Running on rank 0
+Node[125]: Running on rank 0
+Node[126]: Running on rank 0
+Node[127]: Running on rank 0
+Node[128]: Running on rank 0
+Node[129]: Running on rank 0
+Node[130]: Running on rank 0
+Node[131]: Running on rank 0
+Node[132]: Running on rank 0
+Node[133]: Running on rank 0
+Node[134]: Running on rank 0
+Node[135]: Running on rank 0
+Node[136]: Running on rank 0
+Node[137]: Running on rank 0
+Node[138]: Running on rank 0
+Node[139]: Running on rank 0
+Node[140]: Running on rank 0
+Node[141]: Running on rank 0
+Node[142]: Running on rank 0
+Node[143]: Running on rank 0
+Node[144]: Running on rank 0
+Node[145]: Running on rank 0
+Node[146]: Running on rank 0
+Node[147]: Running on rank 0
+Node[148]: Running on rank 0
+Node[149]: Running on rank 0
+Node[150]: Running on rank 0
+Node[151]: Running on rank 0
+Node[152]: Running on rank 0
+Node[153]: Running on rank 0
+Node[154]: Running on rank 0
+Node[155]: Running on rank 0
+Node[156]: Running on rank 0
+Node[157]: Running on rank 0
+Node[158]: Running on rank 0
+Node[159]: Running on rank 0
+Node[160]: Running on rank 0
+Node[161]: Running on rank 0
+Node[162]: Running on rank 0
+Node[163]: Running on rank 0
+Node[164]: Running on rank 0
+Node[165]: Running on rank 0
+Node[166]: Running on rank 0
+Node[167]: Running on rank 0
+Node[168]: Running on rank 0
+Node[169]: Running on rank 0
+Node[170]: Running on rank 0
+Node[171]: Running on rank 0
+Node[172]: Running on rank 0
+Node[173]: Running on rank 0
+Node[174]: Running on rank 0
+Node[175]: Running on rank 0
+Node[176]: Running on rank 0
+Node[177]: Running on rank 0
+Node[178]: Running on rank 0
+Node[179]: Running on rank 0
+Node[180]: Running on rank 0
+Node[181]: Running on rank 0
+Node[182]: Running on rank 0
+Node[183]: Running on rank 0
+Node[184]: Running on rank 0
+Node[185]: Running on rank 0
+Node[186]: Running on rank 0
+Node[187]: Running on rank 0
+Node[188]: Running on rank 0
+Node[189]: Running on rank 0
+Node[190]: Running on rank 0
+Node[191]: Running on rank 0
+Node[192]: Running on rank 0
+Node[193]: Running on rank 0
+Node[194]: Running on rank 0
+Node[195]: Running on rank 0
+Node[196]: Running on rank 0
+Node[197]: Running on rank 0
+Node[198]: Running on rank 0
+Node[199]: Running on rank 0
+Node[200]: Running on rank 0
+Node[201]: Running on rank 0
+Node[202]: Running on rank 0
+Node[203]: Running on rank 0
+Node[204]: Running on rank 0
+Node[205]: Running on rank 0
+Node[206]: Running on rank 0
+Node[207]: Running on rank 0
+Node[208]: Running on rank 0
+Node[209]: Running on rank 0
+Node[210]: Running on rank 0
+Node[211]: Running on rank 0
+Node[212]: Running on rank 0
+Node[213]: Running on rank 0
+Node[214]: Running on rank 0
+Node[215]: Running on rank 0
+Node[216]: Running on rank 0
+Node[217]: Running on rank 0
+Node[218]: Running on rank 0
+Node[219]: Running on rank 0
+Node[220]: Running on rank 0
+Node[221]: Running on rank 0
+Node[222]: Running on rank 0
+Node[223]: Running on rank 0
+Node[224]: Running on rank 0
+Node[225]: Running on rank 0
+Node[226]: Running on rank 0
+Node[227]: Running on rank 0
+Node[228]: Running on rank 0
+Node[229]: Running on rank 0
+Node[230]: Running on rank 0
+Node[231]: Running on rank 0
+Node[232]: Running on rank 0
+Node[233]: Running on rank 0
+Node[234]: Running on rank 0
+Node[235]: Running on rank 0
+Node[236]: Running on rank 0
+Node[237]: Running on rank 0
+Node[238]: Running on rank 0
+Node[239]: Running on rank 0
+Node[240]: Running on rank 0
+Node[241]: Running on rank 0
+Node[242]: Running on rank 0
+Node[243]: Running on rank 0
+Node[244]: Running on rank 0
+Node[245]: Running on rank 0
+Node[246]: Running on rank 0
+Node[247]: Running on rank 0
+Node[248]: Running on rank 0
+Node[249]: Running on rank 0
+Node[250]: Running on rank 0
+Node[251]: Running on rank 0
+Node[252]: Running on rank 0
+Node[253]: Running on rank 0
+Node[254]: Running on rank 0
+Node[255]: Running on rank 0
+Node[256]: Running on rank 0
+Node[257]: Running on rank 0
+Node[258]: Running on rank 0
+Node[259]: Running on rank 0
+Node[260]: Running on rank 0
+Node[261]: Running on rank 0
+Node[262]: Running on rank 0
+Node[263]: Running on rank 0
+Node[264]: Running on rank 0
+Node[265]: Running on rank 0
+Node[266]: Running on rank 0
+Node[267]: Running on rank 0
+Node[268]: Running on rank 0
+Node[269]: Running on rank 0
+Node[270]: Running on rank 0
+Node[271]: Running on rank 0
+Node[272]: Running on rank 0
+Node[273]: Running on rank 0
+Node[274]: Running on rank 0
+Node[275]: Running on rank 0
+Node[276]: Running on rank 0
+Node[277]: Running on rank 0
+Node[278]: Running on rank 0
+Node[279]: Running on rank 0
+Node[280]: Running on rank 0
+Node[281]: Running on rank 0
+Node[282]: Running on rank 0
+Node[283]: Running on rank 0
+Node[284]: Running on rank 0
+Node[285]: Running on rank 0
+Node[286]: Running on rank 0
+Node[287]: Running on rank 0
+Node[288]: Running on rank 0
+Node[289]: Running on rank 0
+Node[290]: Running on rank 0
+Node[291]: Running on rank 0
+Node[292]: Running on rank 0
+Node[293]: Running on rank 0
+Node[294]: Running on rank 0
+Node[295]: Running on rank 0
+Node[296]: Running on rank 0
+Node[297]: Running on rank 0
+Node[298]: Running on rank 0
+Node[299]: Running on rank 0
+Node[300]: Running on rank 0
+Node[301]: Running on rank 0
+Node[302]: Running on rank 0
+Node[303]: Running on rank 0
+Node[304]: Running on rank 0
+Node[305]: Running on rank 0
+Node[306]: Running on rank 0
+Node[307]: Running on rank 0
+Node[308]: Running on rank 0
+Node[309]: Running on rank 0
+Node[310]: Running on rank 0
+Node[311]: Running on rank 0
+Node[312]: Running on rank 0
+Node[313]: Running on rank 0
+Node[314]: Running on rank 0
+Node[315]: Running on rank 0
+Node[316]: Running on rank 0
+Node[317]: Running on rank 0
+Node[318]: Running on rank 0
+Node[319]: Running on rank 0
+Node[320]: Running on rank 0
+Node[321]: Running on rank 0
+Node[322]: Running on rank 0
+Node[323]: Running on rank 0
+Node[324]: Running on rank 0
+Node[325]: Running on rank 0
+Node[326]: Running on rank 0
+Node[327]: Running on rank 0
+Node[328]: Running on rank 0
+Node[329]: Running on rank 0
+Node[330]: Running on rank 0
+Node[331]: Running on rank 0
+Node[332]: Running on rank 0
+Node[333]: Running on rank 0
+Node[334]: Running on rank 0
+Node[335]: Running on rank 0
+Node[336]: Running on rank 0
+Node[337]: Running on rank 0
+Node[338]: Running on rank 0
+Node[339]: Running on rank 0
+Node[340]: Running on rank 0
+Node[341]: Running on rank 0
+Node[342]: Running on rank 0
+Node[343]: Running on rank 0
+Node[344]: Running on rank 0
+Node[345]: Running on rank 0
+Node[346]: Running on rank 0
+Node[347]: Running on rank 0
+Node[348]: Running on rank 0
+Node[349]: Running on rank 0
+Node[350]: Running on rank 0
+Node[351]: Running on rank 0
+Node[352]: Running on rank 0
+Node[353]: Running on rank 0
+Node[354]: Running on rank 0
+Node[355]: Running on rank 0
+Node[356]: Running on rank 0
+Node[357]: Running on rank 0
+Node[358]: Running on rank 0
+Node[359]: Running on rank 0
+Node[360]: Running on rank 0
+Node[361]: Running on rank 0
+Node[362]: Running on rank 0
+Node[363]: Running on rank 0
+Node[364]: Running on rank 0
+Node[365]: Running on rank 0
+Node[366]: Running on rank 0
+Node[367]: Running on rank 0
+Node[368]: Running on rank 0
+Node[369]: Running on rank 0
+Node[370]: Running on rank 0
+Node[371]: Running on rank 0
+Node[372]: Running on rank 0
+Node[373]: Running on rank 0
+Node[374]: Running on rank 0
+Node[375]: Running on rank 0
+Node[376]: Running on rank 0
+Node[377]: Running on rank 0
+Node[378]: Running on rank 0
+Node[379]: Running on rank 0
+Node[380]: Running on rank 0
+Node[381]: Running on rank 0
+Node[382]: Running on rank 0
+Node[383]: Running on rank 0
+Node[384]: Running on rank 0
+Node[385]: Running on rank 0
+Node[386]: Running on rank 0
+Node[387]: Running on rank 0
+Node[388]: Running on rank 0
+Node[389]: Running on rank 0
+Node[390]: Running on rank 0
+Node[391]: Running on rank 0
+Node[392]: Running on rank 0
+Node[393]: Running on rank 0
+Node[394]: Running on rank 0
+Node[395]: Running on rank 0
+Node[396]: Running on rank 0
+Node[397]: Running on rank 0
+Node[398]: Running on rank 0
+Node[399]: Running on rank 0
+Node[400]: Running on rank 0
+Node[401]: Running on rank 0
+Node[402]: Running on rank 0
+Node[403]: Running on rank 0
+Node[404]: Running on rank 0
+Node[405]: Running on rank 0
+Node[406]: Running on rank 0
+Node[407]: Running on rank 0
+Node[408]: Running on rank 0
+Node[409]: Running on rank 0
+Node[410]: Running on rank 0
+Node[411]: Running on rank 0
+Node[412]: Running on rank 0
+Node[413]: Running on rank 0
+Node[414]: Running on rank 0
+Node[415]: Running on rank 0
+Node[416]: Running on rank 0
+Node[417]: Running on rank 0
+Node[418]: Running on rank 0
+Node[419]: Running on rank 0
+Node[420]: Running on rank 0
+Node[421]: Running on rank 0
+Node[422]: Running on rank 0
+Node[423]: Running on rank 0
+Node[424]: Running on rank 0
+Node[425]: Running on rank 0
+Node[426]: Running on rank 0
+Node[427]: Running on rank 0
+Node[428]: Running on rank 0
+Node[429]: Running on rank 0
+Node[430]: Running on rank 0
+Node[431]: Running on rank 0
+Node[432]: Running on rank 0
+Node[433]: Running on rank 0
+Node[434]: Running on rank 0
+Node[435]: Running on rank 0
+Node[436]: Running on rank 0
+Node[437]: Running on rank 0
+Node[438]: Running on rank 0
+Node[439]: Running on rank 0
+Node[440]: Running on rank 0
+Node[441]: Running on rank 0
+Node[442]: Running on rank 0
+Node[443]: Running on rank 0
+Node[444]: Running on rank 0
+Node[445]: Running on rank 0
+Node[446]: Running on rank 0
+Node[447]: Running on rank 0
+Node[448]: Running on rank 0
+Node[449]: Running on rank 0
+Node[450]: Running on rank 0
+Node[451]: Running on rank 0
+Node[452]: Running on rank 0
+Node[453]: Running on rank 0
+Node[454]: Running on rank 0
+Node[455]: Running on rank 0
+Node[456]: Running on rank 0
+Node[457]: Running on rank 0
+Node[458]: Running on rank 0
+Node[459]: Running on rank 0
+Node[460]: Running on rank 0
+Node[461]: Running on rank 0
+Node[462]: Running on rank 0
+Node[463]: Running on rank 0
+Node[464]: Running on rank 0
+Node[465]: Running on rank 0
+Node[466]: Running on rank 0
+Node[467]: Running on rank 0
+Node[468]: Running on rank 0
+Node[469]: Running on rank 0
+Node[470]: Running on rank 0
+Node[471]: Running on rank 0
+Node[472]: Running on rank 0
+Node[473]: Running on rank 0
+Node[474]: Running on rank 0
+Node[475]: Running on rank 0
+Node[476]: Running on rank 0
+Node[477]: Running on rank 0
+Node[478]: Running on rank 0
+Node[479]: Running on rank 0
+Node[480]: Running on rank 0
+Node[481]: Running on rank 0
+Node[482]: Running on rank 0
+Node[483]: Running on rank 0
+Node[484]: Running on rank 0
+Node[485]: Running on rank 0
+Node[486]: Running on rank 0
+Node[487]: Running on rank 0
+Node[488]: Running on rank 0
+Node[489]: Running on rank 0
+Node[490]: Running on rank 0
+Node[491]: Running on rank 0
+Node[492]: Running on rank 0
+Node[493]: Running on rank 0
+Node[494]: Running on rank 0
+Node[495]: Running on rank 0
+Node[496]: Running on rank 0
+Node[497]: Running on rank 0
+Node[498]: Running on rank 0
+Node[499]: Running on rank 0
+Node[500]: Running on rank 0
+Node[501]: Running on rank 0
+Node[502]: Running on rank 0
+Node[503]: Running on rank 0
+Node[504]: Running on rank 0
+Node[505]: Running on rank 0
+Node[506]: Running on rank 0
+Node[507]: Running on rank 0
+Node[508]: Running on rank 0
+Node[509]: Running on rank 0
+Node[510]: Running on rank 0
+Node[511]: Running on rank 0
+Node[512]: Running on rank 0
+Node[513]: Running on rank 0
+Node[514]: Running on rank 0
+Node[515]: Running on rank 0
+Node[516]: Running on rank 0
+Node[517]: Running on rank 0
+Node[518]: Running on rank 0
+Node[519]: Running on rank 0
+Node[520]: Running on rank 0
+Node[521]: Running on rank 0
+Node[522]: Running on rank 0
+Node[523]: Running on rank 0
+Node[524]: Running on rank 0
+Node[525]: Running on rank 0
+Node[526]: Running on rank 0
+Node[527]: Running on rank 0
+Node[528]: Running on rank 0
+Node[529]: Running on rank 0
+Node[530]: Running on rank 0
+Node[531]: Running on rank 0
+Node[532]: Running on rank 0
+Node[533]: Running on rank 0
+Node[534]: Running on rank 0
+Node[535]: Running on rank 0
+Node[536]: Running on rank 0
+Node[537]: Running on rank 0
+Node[538]: Running on rank 0
+Node[539]: Running on rank 0
+Node[540]: Running on rank 0
+Node[541]: Running on rank 0
+Node[542]: Running on rank 0
+Node[543]: Running on rank 0
+Node[544]: Running on rank 0
+Node[545]: Running on rank 0
+Node[546]: Running on rank 0
+Node[547]: Running on rank 0
+Node[548]: Running on rank 0
+Node[549]: Running on rank 0
+Node[550]: Running on rank 0
+Node[551]: Running on rank 0
+Node[552]: Running on rank 0
+Node[553]: Running on rank 0
+Node[554]: Running on rank 0
+Node[555]: Running on rank 0
+Node[556]: Running on rank 0
+Node[557]: Running on rank 0
+Node[558]: Running on rank 0
+Node[559]: Running on rank 0
+Node[560]: Running on rank 0
+Node[561]: Running on rank 0
+Node[562]: Running on rank 0
+Node[563]: Running on rank 0
+Node[564]: Running on rank 0
+Node[565]: Running on rank 0
+Node[566]: Running on rank 0
+Node[567]: Running on rank 0
+Node[568]: Running on rank 0
+Node[569]: Running on rank 0
+Node[570]: Running on rank 0
+Node[571]: Running on rank 0
+Node[572]: Running on rank 0
+Node[573]: Running on rank 0
+Node[574]: Running on rank 0
+Node[575]: Running on rank 0
+Node[576]: Running on rank 0
+Node[577]: Running on rank 0
+Node[578]: Running on rank 0
+Node[579]: Running on rank 0
+Node[580]: Running on rank 0
+Node[581]: Running on rank 0
+Node[582]: Running on rank 0
+Node[583]: Running on rank 0
+Node[584]: Running on rank 0
+Node[585]: Running on rank 0
+Node[586]: Running on rank 0
+Node[587]: Running on rank 0
+Node[588]: Running on rank 0
+Node[589]: Running on rank 0
+Node[590]: Running on rank 0
+Node[591]: Running on rank 0
+Node[592]: Running on rank 0
+Node[593]: Running on rank 0
+Node[594]: Running on rank 0
+Node[595]: Running on rank 0
+Node[596]: Running on rank 0
+Node[597]: Running on rank 0
+Node[598]: Running on rank 0
+Node[599]: Running on rank 0
+Node[600]: Running on rank 0
+Node[601]: Running on rank 0
+Node[602]: Running on rank 0
+Node[603]: Running on rank 0
+Node[604]: Running on rank 0
+Node[605]: Running on rank 0
+Node[606]: Running on rank 0
+Node[607]: Running on rank 0
+Node[608]: Running on rank 0
+Node[609]: Running on rank 0
+Node[610]: Running on rank 0
+Node[611]: Running on rank 0
+Node[612]: Running on rank 0
+Node[613]: Running on rank 0
+Node[614]: Running on rank 0
+Node[615]: Running on rank 0
+Node[616]: Running on rank 0
+Node[617]: Running on rank 0
+Node[618]: Running on rank 0
+Node[619]: Running on rank 0
+Node[620]: Running on rank 0
+Node[621]: Running on rank 0
+Node[622]: Running on rank 0
+Node[623]: Running on rank 0
+Node[624]: Running on rank 0
+Node[625]: Running on rank 0
+Node[626]: Running on rank 0
+Node[627]: Running on rank 0
+Node[628]: Running on rank 0
+Node[629]: Running on rank 0
+Node[630]: Running on rank 0
+Node[631]: Running on rank 0
+Node[632]: Running on rank 0
+Node[633]: Running on rank 0
+Node[634]: Running on rank 0
+Node[635]: Running on rank 0
+Node[636]: Running on rank 0
+Node[637]: Running on rank 0
+Node[638]: Running on rank 0
+Node[639]: Running on rank 0
+Node[640]: Running on rank 0
+Node[641]: Running on rank 0
+Node[642]: Running on rank 0
+Node[643]: Running on rank 0
+Node[644]: Running on rank 0
+Node[645]: Running on rank 0
+Node[646]: Running on rank 0
+Node[647]: Running on rank 0
+Node[648]: Running on rank 0
+Node[649]: Running on rank 0
+Node[650]: Running on rank 0
+Node[651]: Running on rank 0
+Node[652]: Running on rank 0
+Node[653]: Running on rank 0
+Node[654]: Running on rank 0
+Node[655]: Running on rank 0
+Node[656]: Running on rank 0
+Node[657]: Running on rank 0
+Node[658]: Running on rank 0
+Node[659]: Running on rank 0
+Node[660]: Running on rank 0
+Node[661]: Running on rank 0
+Node[662]: Running on rank 0
+Node[663]: Running on rank 0
+Node[664]: Running on rank 0
+Node[665]: Running on rank 0
+Node[666]: Running on rank 0
+Node[667]: Running on rank 0
+Node[668]: Running on rank 0
+Node[669]: Running on rank 0
+Node[670]: Running on rank 0
+Node[671]: Running on rank 0
+Node[672]: Running on rank 0
+Node[673]: Running on rank 0
+Node[674]: Running on rank 0
+Node[675]: Running on rank 0
+Node[676]: Running on rank 0
+Node[677]: Running on rank 0
+Node[678]: Running on rank 0
+Node[679]: Running on rank 0
+Node[680]: Running on rank 0
+Node[681]: Running on rank 0
+Node[682]: Running on rank 0
+Node[683]: Running on rank 0
+Node[684]: Running on rank 0
+Node[685]: Running on rank 0
+Node[686]: Running on rank 0
+Node[687]: Running on rank 0
+Node[688]: Running on rank 0
+Node[689]: Running on rank 0
+Node[690]: Running on rank 0
+Node[691]: Running on rank 0
+Node[692]: Running on rank 0
+Node[693]: Running on rank 0
+Node[694]: Running on rank 0
+Node[695]: Running on rank 0
+Node[696]: Running on rank 0
+Node[697]: Running on rank 0
+Node[698]: Running on rank 0
+Node[699]: Running on rank 0
+Node[700]: Running on rank 0
+Node[701]: Running on rank 0
+Node[702]: Running on rank 0
+Node[703]: Running on rank 0
+Node[704]: Running on rank 0
+Node[705]: Running on rank 0
+Node[706]: Running on rank 0
+Node[707]: Running on rank 0
+Node[708]: Running on rank 0
+Node[709]: Running on rank 0
+Node[710]: Running on rank 0
+Node[711]: Running on rank 0
+Node[712]: Running on rank 0
+Node[713]: Running on rank 0
+Node[714]: Running on rank 0
+Node[715]: Running on rank 0
+Node[716]: Running on rank 0
+Node[717]: Running on rank 0
+Node[718]: Running on rank 0
+Node[719]: Running on rank 0
+Node[720]: Running on rank 0
+Node[721]: Running on rank 0
+Node[722]: Running on rank 0
+Node[723]: Running on rank 0
+Node[724]: Running on rank 0
+Node[725]: Running on rank 0
+Node[726]: Running on rank 0
+Node[727]: Running on rank 0
+Node[728]: Running on rank 0
+Node[729]: Running on rank 0
+Node[730]: Running on rank 0
+Node[731]: Running on rank 0
+Node[732]: Running on rank 0
+Node[733]: Running on rank 0
+Node[734]: Running on rank 0
+Node[735]: Running on rank 0
+Node[736]: Running on rank 0
+Node[737]: Running on rank 0
+Node[738]: Running on rank 0
+Node[739]: Running on rank 0
+Node[740]: Running on rank 0
+Node[741]: Running on rank 0
+Node[742]: Running on rank 0
+Node[743]: Running on rank 0
+Node[744]: Running on rank 0
+Node[745]: Running on rank 0
+Node[746]: Running on rank 0
+Node[747]: Running on rank 0
+Node[748]: Running on rank 0
+Node[749]: Running on rank 0
+Node[750]: Running on rank 0
+Node[751]: Running on rank 0
+Node[752]: Running on rank 0
+Node[753]: Running on rank 0
+Node[754]: Running on rank 0
+Node[755]: Running on rank 0
+Node[756]: Running on rank 0
+Node[757]: Running on rank 0
+Node[758]: Running on rank 0
+Node[759]: Running on rank 0
+Node[760]: Running on rank 0
+Node[761]: Running on rank 0
+Node[762]: Running on rank 0
+Node[763]: Running on rank 0
+Node[764]: Running on rank 0
+Node[765]: Running on rank 0
+Node[766]: Running on rank 0
+Node[767]: Running on rank 0
+Node[768]: Running on rank 0
+Node[769]: Running on rank 0
+Node[770]: Running on rank 0
+Node[771]: Running on rank 0
+Node[772]: Running on rank 0
+Node[773]: Running on rank 0
+Node[774]: Running on rank 0
+Node[775]: Running on rank 0
+Node[776]: Running on rank 0
+Node[777]: Running on rank 0
+Node[778]: Running on rank 0
+Node[779]: Running on rank 0
+Node[780]: Running on rank 0
+Node[781]: Running on rank 0
+Node[782]: Running on rank 0
+Node[783]: Running on rank 0
+Node[784]: Running on rank 0
+Node[785]: Running on rank 0
+Node[786]: Running on rank 0
+Node[787]: Running on rank 0
+Node[788]: Running on rank 0
+Node[789]: Running on rank 0
+Node[790]: Running on rank 0
+Node[791]: Running on rank 0
+Node[792]: Running on rank 0
+Node[793]: Running on rank 0
+Node[794]: Running on rank 0
+Node[795]: Running on rank 0
+Node[796]: Running on rank 0
+Node[797]: Running on rank 0
+Node[798]: Running on rank 0
+Node[799]: Running on rank 0
+Node[800]: Running on rank 0
+Node[801]: Running on rank 0
+Node[802]: Running on rank 0
+Node[803]: Running on rank 0
+Node[804]: Running on rank 0
+Node[805]: Running on rank 0
+Node[806]: Running on rank 0
+Node[807]: Running on rank 0
+Node[808]: Running on rank 0
+Node[809]: Running on rank 0
+Node[810]: Running on rank 0
+Node[811]: Running on rank 0
+Node[812]: Running on rank 0
+Node[813]: Running on rank 0
+Node[814]: Running on rank 0
+Node[815]: Running on rank 0
+Node[816]: Running on rank 0
+Node[817]: Running on rank 0
+Node[818]: Running on rank 0
+Node[819]: Running on rank 0
+Node[820]: Running on rank 0
+Node[821]: Running on rank 0
+Node[822]: Running on rank 0
+Node[823]: Running on rank 0
+Node[824]: Running on rank 0
+Node[825]: Running on rank 0
+Node[826]: Running on rank 0
+Node[827]: Running on rank 0
+Node[828]: Running on rank 0
+Node[829]: Running on rank 0
+Node[830]: Running on rank 0
+Node[831]: Running on rank 0
+Node[832]: Running on rank 0
+Node[833]: Running on rank 0
+Node[834]: Running on rank 0
+Node[835]: Running on rank 0
+Node[836]: Running on rank 0
+Node[837]: Running on rank 0
+Node[838]: Running on rank 0
+Node[839]: Running on rank 0
+Node[840]: Running on rank 0
+Node[841]: Running on rank 0
+Node[842]: Running on rank 0
+Node[843]: Running on rank 0
+Node[844]: Running on rank 0
+Node[845]: Running on rank 0
+Node[846]: Running on rank 0
+Node[847]: Running on rank 0
+Node[848]: Running on rank 0
+Node[849]: Running on rank 0
+Node[850]: Running on rank 0
+Node[851]: Running on rank 0
+Node[852]: Running on rank 0
+Node[853]: Running on rank 0
+Node[854]: Running on rank 0
+Node[855]: Running on rank 0
+Node[856]: Running on rank 0
+Node[857]: Running on rank 0
+Node[858]: Running on rank 0
+Node[859]: Running on rank 0
+Node[860]: Running on rank 0
+Node[861]: Running on rank 0
+Node[862]: Running on rank 0
+Node[863]: Running on rank 0
+Node[864]: Running on rank 0
+Node[865]: Running on rank 0
+Node[866]: Running on rank 0
+Node[867]: Running on rank 0
+Node[868]: Running on rank 0
+Node[869]: Running on rank 0
+Node[870]: Running on rank 0
+Node[871]: Running on rank 0
+Node[872]: Running on rank 0
+Node[873]: Running on rank 0
+Node[874]: Running on rank 0
+Node[875]: Running on rank 0
+Node[876]: Running on rank 0
+Node[877]: Running on rank 0
+Node[878]: Running on rank 0
+Node[879]: Running on rank 0
+Node[880]: Running on rank 0
+Node[881]: Running on rank 0
+Node[882]: Running on rank 0
+Node[883]: Running on rank 0
+Node[884]: Running on rank 0
+Node[885]: Running on rank 0
+Node[886]: Running on rank 0
+Node[887]: Running on rank 0
+Node[888]: Running on rank 0
+Node[889]: Running on rank 0
+Node[890]: Running on rank 0
+Node[891]: Running on rank 0
+Node[892]: Running on rank 0
+Node[893]: Running on rank 0
+Node[894]: Running on rank 0
+Node[895]: Running on rank 0
+Node[896]: Running on rank 0
+Node[897]: Running on rank 0
+Node[898]: Running on rank 0
+Node[899]: Running on rank 0
+Node[900]: Running on rank 0
+Node[901]: Running on rank 0
+Node[902]: Running on rank 0
+Node[903]: Running on rank 0
+Node[904]: Running on rank 0
+Node[905]: Running on rank 0
+Node[906]: Running on rank 0
+Node[907]: Running on rank 0
+Node[908]: Running on rank 0
+Node[909]: Running on rank 0
+Node[910]: Running on rank 0
+Node[911]: Running on rank 0
+Node[912]: Running on rank 0
+Node[913]: Running on rank 0
+Node[914]: Running on rank 0
+Node[915]: Running on rank 0
+Node[916]: Running on rank 0
+Node[917]: Running on rank 0
+Node[918]: Running on rank 0
+Node[919]: Running on rank 0
+Node[920]: Running on rank 0
+Node[921]: Running on rank 0
+Node[922]: Running on rank 0
+Node[923]: Running on rank 0
+Node[924]: Running on rank 0
+Node[925]: Running on rank 0
+Node[926]: Running on rank 0
+Node[927]: Running on rank 0
+Node[928]: Running on rank 0
+Node[929]: Running on rank 0
+Node[930]: Running on rank 0
+Node[931]: Running on rank 0
+Node[932]: Running on rank 0
+Node[933]: Running on rank 0
+Node[934]: Running on rank 0
+Node[935]: Running on rank 0
+Node[936]: Running on rank 0
+Node[937]: Running on rank 0
+Node[938]: Running on rank 0
+Node[939]: Running on rank 0
+Node[940]: Running on rank 0
+Node[941]: Running on rank 0
+Node[942]: Running on rank 0
+Node[943]: Running on rank 0
+Node[944]: Running on rank 0
+Node[945]: Running on rank 0
+Node[946]: Running on rank 0
+Node[947]: Running on rank 0
+Node[948]: Running on rank 0
+Node[949]: Running on rank 0
+Node[950]: Running on rank 0
+Node[951]: Running on rank 0
+Node[952]: Running on rank 0
+Node[953]: Running on rank 0
+Node[954]: Running on rank 0
+Node[955]: Running on rank 0
+Node[956]: Running on rank 0
+Node[957]: Running on rank 0
+Node[958]: Running on rank 0
+Node[959]: Running on rank 0
+Node[960]: Running on rank 0
+Node[961]: Running on rank 0
+Node[962]: Running on rank 0
+Node[963]: Running on rank 0
+Node[964]: Running on rank 0
+Node[965]: Running on rank 0
+Node[966]: Running on rank 0
+Node[967]: Running on rank 0
+Node[968]: Running on rank 0
+Node[969]: Running on rank 0
+Node[970]: Running on rank 0
+Node[971]: Running on rank 0
+Node[972]: Running on rank 0
+Node[973]: Running on rank 0
+Node[974]: Running on rank 0
+Node[975]: Running on rank 0
+Node[976]: Running on rank 0
+Node[977]: Running on rank 0
+Node[978]: Running on rank 0
+Node[979]: Running on rank 0
+Node[980]: Running on rank 0
+Node[981]: Running on rank 0
+Node[982]: Running on rank 0
+Node[983]: Running on rank 0
+Node[984]: Running on rank 0
+Node[985]: Running on rank 0
+Node[986]: Running on rank 0
+Node[987]: Running on rank 0
+Node[988]: Running on rank 0
+Node[989]: Running on rank 0
+Node[990]: Running on rank 0
+Node[991]: Running on rank 0
+Node[992]: Running on rank 0
+Node[993]: Running on rank 0
+Node[994]: Running on rank 0
+Node[995]: Running on rank 0
+Node[996]: Running on rank 0
+Node[997]: Running on rank 0
+Node[998]: Running on rank 0
+Node[999]: Running on rank 0
+ReportNode[0]: Running on rank 0
+1--Reliability:6.900%    Nodes:69    Latency:10   RMR:1.897        Gossip:197   Ihave:0   Graft:0
+
+2--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+3--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+4--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+5--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+6--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+7--Reliability:6.900%    Nodes:69    Latency:10   RMR:0.000        Gossip:68   Ihave:129   Graft:0
+
+8--Reliability:6.300%    Nodes:63    Latency:8   RMR:1.129        Gossip:132   Ihave:46   Graft:4
+
+9--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+10--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+11--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+12--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+13--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+14--Reliability:6.300%    Nodes:63    Latency:8   RMR:0.016        Gossip:63   Ihave:112   Graft:1
+
+15--Reliability:6.900%    Nodes:69    Latency:8   RMR:1.176        Gossip:148   Ihave:61   Graft:5
+
+16--Reliability:6.900%    Nodes:69    Latency:8   RMR:0.029        Gossip:70   Ihave:136   Graft:2
+
+17--Reliability:6.900%    Nodes:69    Latency:8   RMR:0.029        Gossip:70   Ihave:136   Graft:2
+
+18--Reliability:6.900%    Nodes:69    Latency:8   RMR:0.029        Gossip:70   Ihave:136   Graft:2
+
+19--Reliability:6.900%    Nodes:69    Latency:8   RMR:0.029        Gossip:70   Ihave:136   Graft:2
+
+20--Reliability:6.900%    Nodes:69    Latency:8   RMR:0.029        Gossip:70   Ihave:136   Graft:2
+
+21--Reliability:7.400%    Nodes:74    Latency:13   RMR:1.041        Gossip:149   Ihave:67   Graft:12
+
+22--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+23--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+24--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+25--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+26--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+27--Reliability:7.400%    Nodes:74    Latency:13   RMR:0.041        Gossip:76   Ihave:131   Graft:3
+
+28--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.871        Gossip:116   Ihave:67   Graft:18
+
+29--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+30--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+31--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+32--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+33--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+34--Reliability:6.300%    Nodes:63    Latency:14   RMR:0.048        Gossip:65   Ihave:103   Graft:3
+
+35--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.953        Gossip:125   Ihave:58   Graft:12
+
+36--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.016        Gossip:65   Ihave:107   Graft:1
+
+37--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.016        Gossip:65   Ihave:107   Graft:1
+
+38--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.016        Gossip:65   Ihave:107   Graft:1
+
+39--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.016        Gossip:65   Ihave:107   Graft:1
+
+40--Reliability:6.500%    Nodes:65    Latency:13   RMR:0.016        Gossip:65   Ihave:107   Graft:1
+
+41--Reliability:6.600%    Nodes:66    Latency:15   RMR:1.000        Gossip:130   Ihave:56   Graft:10
+
+42--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+43--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+44--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+45--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+46--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+47--Reliability:6.600%    Nodes:66    Latency:15   RMR:0.108        Gossip:72   Ihave:111   Graft:7
+
+48--Reliability:6.800%    Nodes:68    Latency:11   RMR:1.000        Gossip:134   Ihave:46   Graft:7
+
+49--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+50--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+51--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+52--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+53--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+54--Reliability:6.800%    Nodes:68    Latency:11   RMR:0.060        Gossip:71   Ihave:106   Graft:4
+
+55--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.964        Gossip:110   Ihave:39   Graft:9
+
+56--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.036        Gossip:58   Ihave:84   Graft:2
+
+57--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.036        Gossip:58   Ihave:84   Graft:2
+
+58--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.036        Gossip:58   Ihave:84   Graft:2
+
+59--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.036        Gossip:58   Ihave:84   Graft:2
+
+60--Reliability:5.700%    Nodes:57    Latency:13   RMR:0.036        Gossip:58   Ihave:84   Graft:2
+
+61--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.933        Gossip:87   Ihave:29   Graft:4
+
+62--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+63--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+64--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+65--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+66--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+67--Reliability:4.600%    Nodes:46    Latency:7   RMR:0.044        Gossip:47   Ihave:67   Graft:2
+
+68--Reliability:6.300%    Nodes:63    Latency:12   RMR:1.145        Gossip:133   Ihave:39   Graft:10
+
+69--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+70--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+71--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+72--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+73--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+74--Reliability:6.300%    Nodes:63    Latency:12   RMR:0.129        Gossip:70   Ihave:100   Graft:8
+
+75--Reliability:5.300%    Nodes:53    Latency:12   RMR:1.192        Gossip:114   Ihave:38   Graft:9
+
+76--Reliability:5.300%    Nodes:53    Latency:12   RMR:0.077        Gossip:56   Ihave:91   Graft:4
+
+77--Reliability:5.300%    Nodes:53    Latency:12   RMR:0.077        Gossip:56   Ihave:91   Graft:4
+
+78--Reliability:5.300%    Nodes:53    Latency:12   RMR:0.077        Gossip:56   Ihave:91   Graft:4
+
+79--Reliability:5.300%    Nodes:53    Latency:12   RMR:0.077        Gossip:56   Ihave:91   Graft:4
+
+80--Reliability:5.300%    Nodes:53    Latency:12   RMR:0.077        Gossip:56   Ihave:91   Graft:4
+
+81--Reliability:4.000%    Nodes:40    Latency:7   RMR:1.077        Gossip:81   Ihave:37   Graft:12
+
+82--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+83--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+84--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+85--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+86--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+87--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.103        Gossip:43   Ihave:67   Graft:4
+
+88--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.921        Gossip:73   Ihave:39   Graft:15
+
+89--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+90--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+91--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+92--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+93--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+94--Reliability:3.900%    Nodes:39    Latency:11   RMR:0.105        Gossip:42   Ihave:59   Graft:4
+
+95--Reliability:5.600%    Nodes:56    Latency:16   RMR:1.127        Gossip:117   Ihave:36   Graft:7
+
+96--Reliability:5.600%    Nodes:56    Latency:16   RMR:0.018        Gossip:56   Ihave:91   Graft:1
+
+97--Reliability:5.600%    Nodes:56    Latency:16   RMR:0.018        Gossip:56   Ihave:91   Graft:1
+
+98--Reliability:5.600%    Nodes:56    Latency:16   RMR:0.018        Gossip:56   Ihave:91   Graft:1
+
+99--Reliability:5.600%    Nodes:56    Latency:16   RMR:0.018        Gossip:56   Ihave:91   Graft:1
+
+100--Reliability:5.600%    Nodes:56    Latency:16   RMR:0.018        Gossip:56   Ihave:91   Graft:1
+
+101--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.818        Gossip:100   Ihave:48   Graft:10
+
+102--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+103--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+104--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+105--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+106--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+107--Reliability:5.600%    Nodes:56    Latency:10   RMR:0.073        Gossip:59   Ihave:83   Graft:4
+
+108--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.944        Gossip:105   Ihave:48   Graft:6
+
+109--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+110--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+111--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+112--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+113--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+114--Reliability:5.500%    Nodes:55    Latency:13   RMR:0.056        Gossip:57   Ihave:93   Graft:3
+
+115--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.917        Gossip:92   Ihave:41   Graft:15
+
+116--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.167        Gossip:56   Ihave:70   Graft:8
+
+117--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.167        Gossip:56   Ihave:70   Graft:8
+
+118--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.167        Gossip:56   Ihave:70   Graft:8
+
+119--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.167        Gossip:56   Ihave:70   Graft:8
+
+120--Reliability:4.900%    Nodes:49    Latency:10   RMR:0.167        Gossip:56   Ihave:70   Graft:8
+
+121--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.918        Gossip:94   Ihave:42   Graft:14
+
+122--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+123--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+124--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+125--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+126--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+127--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:73   Graft:6
+
+128--Reliability:6.300%    Nodes:63    Latency:10   RMR:1.000        Gossip:124   Ihave:35   Graft:11
+
+129--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+130--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+131--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+132--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+133--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+134--Reliability:6.300%    Nodes:63    Latency:10   RMR:0.032        Gossip:64   Ihave:86   Graft:2
+
+135--Reliability:6.200%    Nodes:62    Latency:10   RMR:1.098        Gossip:128   Ihave:32   Graft:6
+
+136--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+137--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+138--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+139--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+140--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+141--Reliability:5.000%    Nodes:50    Latency:8   RMR:1.163        Gossip:106   Ihave:28   Graft:8
+
+142--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+143--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+144--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+145--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+146--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+147--Reliability:5.000%    Nodes:50    Latency:8   RMR:0.122        Gossip:55   Ihave:77   Graft:6
+
+148--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.984        Gossip:121   Ihave:36   Graft:3
+
+149--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+150--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+151--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+152--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+153--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+154--Reliability:6.200%    Nodes:62    Latency:10   RMR:0.033        Gossip:63   Ihave:93   Graft:2
+
+155--Reliability:5.700%    Nodes:57    Latency:7   RMR:1.054        Gossip:115   Ihave:39   Graft:9
+
+156--Reliability:5.700%    Nodes:57    Latency:7   RMR:0.036        Gossip:58   Ihave:89   Graft:2
+
+157--Reliability:5.700%    Nodes:57    Latency:7   RMR:0.036        Gossip:58   Ihave:89   Graft:2
+
+158--Reliability:5.700%    Nodes:57    Latency:7   RMR:0.036        Gossip:58   Ihave:89   Graft:2
+
+159--Reliability:5.700%    Nodes:57    Latency:7   RMR:0.036        Gossip:58   Ihave:89   Graft:2
+
+160--Reliability:5.700%    Nodes:57    Latency:7   RMR:0.036        Gossip:58   Ihave:89   Graft:2
+
+161--Reliability:5.500%    Nodes:55    Latency:7   RMR:1.093        Gossip:113   Ihave:38   Graft:8
+
+162--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+163--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+164--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+165--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+166--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+167--Reliability:5.500%    Nodes:55    Latency:7   RMR:0.074        Gossip:58   Ihave:89   Graft:4
+
+168--Reliability:5.500%    Nodes:55    Latency:6   RMR:1.167        Gossip:117   Ihave:33   Graft:6
+
+169--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+170--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+171--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+172--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+173--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+174--Reliability:5.500%    Nodes:55    Latency:6   RMR:0.037        Gossip:56   Ihave:90   Graft:2
+
+175--Reliability:4.500%    Nodes:45    Latency:7   RMR:1.068        Gossip:91   Ihave:27   Graft:5
+
+176--Reliability:4.500%    Nodes:45    Latency:7   RMR:0.045        Gossip:46   Ihave:69   Graft:2
+
+177--Reliability:4.500%    Nodes:45    Latency:7   RMR:0.045        Gossip:46   Ihave:69   Graft:2
+
+178--Reliability:4.500%    Nodes:45    Latency:7   RMR:0.045        Gossip:46   Ihave:69   Graft:2
+
+179--Reliability:4.500%    Nodes:45    Latency:7   RMR:0.045        Gossip:46   Ihave:69   Graft:2
+
+180--Reliability:4.500%    Nodes:45    Latency:7   RMR:0.045        Gossip:46   Ihave:69   Graft:2
+
+181--Reliability:4.700%    Nodes:47    Latency:9   RMR:1.283        Gossip:105   Ihave:23   Graft:7
+
+182--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+183--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+184--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+185--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+186--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+187--Reliability:4.700%    Nodes:47    Latency:9   RMR:0.087        Gossip:50   Ihave:75   Graft:4
+
+188--Reliability:4.500%    Nodes:45    Latency:6   RMR:1.205        Gossip:97   Ihave:23   Graft:7
+
+189--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+190--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+191--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+192--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+193--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+194--Reliability:4.500%    Nodes:45    Latency:6   RMR:0.000        Gossip:44   Ihave:69   Graft:0
+
+195--Reliability:4.000%    Nodes:40    Latency:6   RMR:1.179        Gossip:85   Ihave:18   Graft:3
+
+196--Reliability:4.000%    Nodes:40    Latency:6   RMR:0.026        Gossip:40   Ihave:61   Graft:1
+
+197--Reliability:4.000%    Nodes:40    Latency:6   RMR:0.026        Gossip:40   Ihave:61   Graft:1
+
+198--Reliability:4.000%    Nodes:40    Latency:6   RMR:0.026        Gossip:40   Ihave:61   Graft:1
+
+199--Reliability:4.000%    Nodes:40    Latency:6   RMR:0.026        Gossip:40   Ihave:61   Graft:1
+
+200--Reliability:4.000%    Nodes:40    Latency:6   RMR:0.026        Gossip:40   Ihave:61   Graft:1
+
+201--Reliability:4.100%    Nodes:41    Latency:7   RMR:1.075        Gossip:83   Ihave:22   Graft:8
+
+202--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+203--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+204--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+205--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+206--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+207--Reliability:4.100%    Nodes:41    Latency:7   RMR:0.125        Gossip:45   Ihave:57   Graft:5
+
+208--Reliability:3.500%    Nodes:35    Latency:7   RMR:1.059        Gossip:70   Ihave:19   Graft:4
+
+209--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+210--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+211--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+212--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+213--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+214--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.059        Gossip:36   Ihave:51   Graft:2
+
+215--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.677        Gossip:52   Ihave:31   Graft:5
+
+216--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.000        Gossip:31   Ihave:47   Graft:0
+
+217--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.000        Gossip:31   Ihave:47   Graft:0
+
+218--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.000        Gossip:31   Ihave:47   Graft:0
+
+219--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.000        Gossip:31   Ihave:47   Graft:0
+
+220--Reliability:3.200%    Nodes:32    Latency:6   RMR:0.000        Gossip:31   Ihave:47   Graft:0
+
+221--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.811        Gossip:67   Ihave:27   Graft:4
+
+222--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+223--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+224--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+225--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+226--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+227--Reliability:3.800%    Nodes:38    Latency:9   RMR:0.054        Gossip:39   Ihave:53   Graft:2
+
+228--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.960        Gossip:49   Ihave:13   Graft:2
+
+229--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+230--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+231--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+232--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+233--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+234--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.040        Gossip:26   Ihave:35   Graft:1
+
+235--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.949        Gossip:76   Ihave:25   Graft:4
+
+236--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.077        Gossip:42   Ihave:58   Graft:3
+
+237--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.077        Gossip:42   Ihave:58   Graft:3
+
+238--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.077        Gossip:42   Ihave:58   Graft:3
+
+239--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.077        Gossip:42   Ihave:58   Graft:3
+
+240--Reliability:4.000%    Nodes:40    Latency:7   RMR:0.077        Gossip:42   Ihave:58   Graft:3
+
+241--Reliability:3.600%    Nodes:36    Latency:7   RMR:1.000        Gossip:70   Ihave:25   Graft:4
+
+242--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+243--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+244--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+245--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+246--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+247--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.057        Gossip:37   Ihave:56   Graft:2
+
+248--Reliability:4.100%    Nodes:41    Latency:8   RMR:1.075        Gossip:83   Ihave:27   Graft:6
+
+249--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+250--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+251--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+252--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+253--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+254--Reliability:4.100%    Nodes:41    Latency:8   RMR:0.125        Gossip:45   Ihave:64   Graft:5
+
+255--Reliability:3.800%    Nodes:38    Latency:7   RMR:1.027        Gossip:75   Ihave:31   Graft:5
+
+256--Reliability:3.800%    Nodes:38    Latency:7   RMR:0.027        Gossip:38   Ihave:64   Graft:1
+
+257--Reliability:3.800%    Nodes:38    Latency:7   RMR:0.027        Gossip:38   Ihave:64   Graft:1
+
+258--Reliability:3.800%    Nodes:38    Latency:7   RMR:0.027        Gossip:38   Ihave:64   Graft:1
+
+259--Reliability:3.800%    Nodes:38    Latency:7   RMR:0.027        Gossip:38   Ihave:64   Graft:1
+
+260--Reliability:3.800%    Nodes:38    Latency:7   RMR:0.027        Gossip:38   Ihave:64   Graft:1
+
+261--Reliability:3.900%    Nodes:39    Latency:6   RMR:1.053        Gossip:78   Ihave:26   Graft:4
+
+262--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+263--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+264--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+265--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+266--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+267--Reliability:3.900%    Nodes:39    Latency:6   RMR:0.105        Gossip:42   Ihave:62   Graft:4
+
+268--Reliability:3.800%    Nodes:38    Latency:6   RMR:1.216        Gossip:82   Ihave:26   Graft:11
+
+269--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+270--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+271--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+272--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+273--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+274--Reliability:3.800%    Nodes:38    Latency:6   RMR:0.108        Gossip:41   Ihave:60   Graft:4
+
+275--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.805        Gossip:74   Ihave:33   Graft:5
+
+276--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:61   Graft:3
+
+277--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:61   Graft:3
+
+278--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:61   Graft:3
+
+279--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:61   Graft:3
+
+280--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:61   Graft:3
+
+281--Reliability:4.200%    Nodes:42    Latency:7   RMR:1.146        Gossip:88   Ihave:23   Graft:3
+
+282--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+283--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+284--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+285--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+286--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+287--Reliability:4.200%    Nodes:42    Latency:7   RMR:0.073        Gossip:44   Ihave:67   Graft:3
+
+288--Reliability:2.800%    Nodes:28    Latency:5   RMR:1.111        Gossip:57   Ihave:15   Graft:3
+
+289--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+290--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+291--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+292--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+293--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+294--Reliability:2.800%    Nodes:28    Latency:5   RMR:0.000        Gossip:27   Ihave:42   Graft:0
+
+295--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.846        Gossip:48   Ihave:20   Graft:1
+
+296--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.000        Gossip:26   Ihave:41   Graft:0
+
+297--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.000        Gossip:26   Ihave:41   Graft:0
+
+298--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.000        Gossip:26   Ihave:41   Graft:0
+
+299--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.000        Gossip:26   Ihave:41   Graft:0
+
+300--Reliability:2.700%    Nodes:27    Latency:5   RMR:0.000        Gossip:26   Ihave:41   Graft:0
+
+301--Reliability:2.800%    Nodes:28    Latency:6   RMR:1.037        Gossip:55   Ihave:17   Graft:1
+
+302--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+303--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+304--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+305--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+306--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+307--Reliability:2.800%    Nodes:28    Latency:6   RMR:0.000        Gossip:27   Ihave:44   Graft:0
+
+308--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.880        Gossip:47   Ihave:19   Graft:0
+
+309--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+310--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+311--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+312--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+313--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+314--Reliability:2.600%    Nodes:26    Latency:5   RMR:0.000        Gossip:25   Ihave:41   Graft:0
+
+315--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.880        Gossip:47   Ihave:21   Graft:5
+
+316--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.120        Gossip:28   Ihave:38   Graft:3
+
+317--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.120        Gossip:28   Ihave:38   Graft:3
+
+318--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.120        Gossip:28   Ihave:38   Graft:3
+
+319--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.120        Gossip:28   Ihave:38   Graft:3
+
+320--Reliability:2.600%    Nodes:26    Latency:6   RMR:0.120        Gossip:28   Ihave:38   Graft:3
+
+321--Reliability:3.500%    Nodes:35    Latency:10   RMR:1.059        Gossip:70   Ihave:28   Graft:9
+
+322--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.147        Gossip:39   Ihave:55   Graft:5
+
+323--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.029        Gossip:35   Ihave:55   Graft:1
+
+324--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.029        Gossip:35   Ihave:55   Graft:1
+
+325--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.029        Gossip:35   Ihave:55   Graft:1
+
+326--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.029        Gossip:35   Ihave:55   Graft:1
+
+327--Reliability:3.500%    Nodes:35    Latency:10   RMR:0.029        Gossip:35   Ihave:55   Graft:1
+
+328--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.857        Gossip:65   Ihave:33   Graft:4
+
+329--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+330--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+331--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+332--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+333--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+334--Reliability:3.600%    Nodes:36    Latency:7   RMR:0.114        Gossip:39   Ihave:59   Graft:4
+
+335--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.853        Gossip:63   Ihave:30   Graft:3
+
+336--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.059        Gossip:36   Ihave:56   Graft:2
+
+337--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.059        Gossip:36   Ihave:56   Graft:2
+
+338--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.059        Gossip:36   Ihave:56   Graft:2
+
+339--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.059        Gossip:36   Ihave:56   Graft:2
+
+340--Reliability:3.500%    Nodes:35    Latency:5   RMR:0.059        Gossip:36   Ihave:56   Graft:2
+
+341--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.800        Gossip:63   Ihave:32   Graft:8
+
+342--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+343--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+344--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+345--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+346--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+347--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:52   Graft:3
+
+348--Reliability:3.600%    Nodes:36    Latency:6   RMR:1.086        Gossip:73   Ihave:27   Graft:4
+
+349--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+350--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+351--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+352--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+353--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+354--Reliability:3.600%    Nodes:36    Latency:6   RMR:0.086        Gossip:38   Ihave:61   Graft:3
+
+355--Reliability:3.400%    Nodes:34    Latency:6   RMR:1.182        Gossip:72   Ihave:29   Graft:4
+
+356--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.061        Gossip:35   Ihave:64   Graft:2
+
+357--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.061        Gossip:35   Ihave:64   Graft:2
+
+358--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.061        Gossip:35   Ihave:64   Graft:2
+
+359--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.061        Gossip:35   Ihave:64   Graft:2
+
+360--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.061        Gossip:35   Ihave:64   Graft:2
+
+361--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.914        Gossip:67   Ihave:44   Graft:12
+
+362--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+363--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+364--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+365--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+366--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+367--Reliability:3.600%    Nodes:36    Latency:8   RMR:0.171        Gossip:41   Ihave:64   Graft:6
+
+368--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.733        Gossip:52   Ihave:40   Graft:15
+
+369--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+370--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+371--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+372--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+373--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+374--Reliability:3.100%    Nodes:31    Latency:8   RMR:0.200        Gossip:36   Ihave:47   Graft:6
+
+375--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.633        Gossip:49   Ihave:29   Graft:5
+
+376--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.167        Gossip:35   Ihave:43   Graft:5
+
+377--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.167        Gossip:35   Ihave:43   Graft:5
+
+378--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.167        Gossip:35   Ihave:43   Graft:5
+
+379--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.167        Gossip:35   Ihave:43   Graft:5
+
+380--Reliability:3.100%    Nodes:31    Latency:9   RMR:0.167        Gossip:35   Ihave:43   Graft:5
+
+381--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.906        Gossip:61   Ihave:9   Graft:0
+
+382--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+383--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+384--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+385--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+386--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+387--Reliability:3.300%    Nodes:33    Latency:8   RMR:0.000        Gossip:32   Ihave:38   Graft:0
+
+388--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.857        Gossip:65   Ihave:17   Graft:4
+
+389--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+390--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+391--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+392--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+393--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+394--Reliability:3.600%    Nodes:36    Latency:9   RMR:0.086        Gossip:38   Ihave:43   Graft:3
+
+395--Reliability:3.700%    Nodes:37    Latency:7   RMR:1.111        Gossip:76   Ihave:15   Graft:2
+
+396--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:53   Graft:1
+
+397--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:53   Graft:1
+
+398--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:53   Graft:1
+
+399--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:53   Graft:1
+
+400--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:53   Graft:1
+
+401--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.829        Gossip:64   Ihave:22   Graft:6
+
+402--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+403--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+404--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+405--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+406--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+407--Reliability:3.600%    Nodes:36    Latency:10   RMR:0.057        Gossip:37   Ihave:45   Graft:2
+
+408--Reliability:1.000%    Nodes:10    Latency:6   RMR:1.444        Gossip:22   Ihave:4   Graft:0
+
+409--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+410--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+411--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+412--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+413--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+414--Reliability:1.000%    Nodes:10    Latency:6   RMR:0.000        Gossip:9   Ihave:17   Graft:0
+
+415--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.971        Gossip:67   Ihave:19   Graft:4
+
+416--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.029        Gossip:35   Ihave:48   Graft:1
+
+417--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.029        Gossip:35   Ihave:48   Graft:1
+
+418--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.029        Gossip:35   Ihave:48   Graft:1
+
+419--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.029        Gossip:35   Ihave:48   Graft:1
+
+420--Reliability:3.500%    Nodes:35    Latency:9   RMR:0.029        Gossip:35   Ihave:48   Graft:1
+
+421--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.765        Gossip:60   Ihave:24   Graft:5
+
+422--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+423--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+424--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+425--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+426--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+427--Reliability:3.500%    Nodes:35    Latency:7   RMR:0.029        Gossip:35   Ihave:45   Graft:1
+
+428--Reliability:3.700%    Nodes:37    Latency:8   RMR:1.111        Gossip:76   Ihave:22   Graft:4
+
+429--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+430--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+431--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+432--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+433--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+434--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+435--Reliability:3.700%    Nodes:37    Latency:7   RMR:1.083        Gossip:75   Ihave:25   Graft:6
+
+436--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+437--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+438--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+439--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+440--Reliability:3.700%    Nodes:37    Latency:7   RMR:0.028        Gossip:37   Ihave:58   Graft:1
+
+441--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.818        Gossip:60   Ihave:20   Graft:0
+
+442--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+443--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+444--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+445--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+446--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+447--Reliability:3.400%    Nodes:34    Latency:6   RMR:0.000        Gossip:33   Ihave:47   Graft:0
+
+448--Reliability:3.700%    Nodes:37    Latency:8   RMR:1.306        Gossip:83   Ihave:12   Graft:1
+
+449--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+450--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+451--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+452--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+453--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+454--Reliability:3.700%    Nodes:37    Latency:8   RMR:0.000        Gossip:36   Ihave:58   Graft:0
+
+455--Reliability:3.500%    Nodes:35    Latency:8   RMR:1.206        Gossip:75   Ihave:15   Graft:2
+
+456--Reliability:3.500%    Nodes:35    Latency:8   RMR:0.059        Gossip:36   Ihave:54   Graft:2
+
+457--Reliability:3.500%    Nodes:35    Latency:8   RMR:0.059        Gossip:36   Ihave:54   Graft:2
+
+458--Reliability:3.500%    Nodes:35    Latency:8   RMR:0.059        Gossip:36   Ihave:54   Graft:2
+
+459--Reliability:3.500%    Nodes:35    Latency:8   RMR:0.059        Gossip:36   Ihave:54   Graft:2
+
+460--Reliability:3.500%    Nodes:35    Latency:8   RMR:0.059        Gossip:36   Ihave:54   Graft:2
+
+461--Reliability:2.100%    Nodes:21    Latency:5   RMR:1.050        Gossip:41   Ihave:11   Graft:0
+
+462--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+463--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+464--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+465--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+466--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+467--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.000        Gossip:20   Ihave:32   Graft:0
+
+468--Reliability:2.000%    Nodes:20    Latency:9   RMR:1.000        Gossip:38   Ihave:16   Graft:4
+
+469--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+470--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+471--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+472--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+473--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+474--Reliability:2.000%    Nodes:20    Latency:9   RMR:0.053        Gossip:20   Ihave:31   Graft:1
+
+475--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.947        Gossip:37   Ihave:19   Graft:5
+
+476--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+477--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+478--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+479--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+480--Reliability:2.000%    Nodes:20    Latency:7   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+481--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.789        Gossip:34   Ihave:22   Graft:3
+
+482--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+483--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+484--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+485--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+486--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+487--Reliability:2.000%    Nodes:20    Latency:5   RMR:0.053        Gossip:20   Ihave:34   Graft:1
+
+488--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.700        Gossip:34   Ihave:26   Graft:2
+
+489--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+490--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+491--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+492--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+493--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+494--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:38   Graft:1
+
+495--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.500        Gossip:30   Ihave:27   Graft:3
+
+496--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:34   Graft:1
+
+497--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:34   Graft:1
+
+498--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:34   Graft:1
+
+499--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:34   Graft:1
+
+500--Reliability:2.100%    Nodes:21    Latency:5   RMR:0.050        Gossip:21   Ihave:34   Graft:1
+
+501--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.611        Gossip:29   Ihave:25   Graft:4
+
+502--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+503--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+504--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+505--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+506--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+507--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:32   Graft:1
+
+508--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.611        Gossip:29   Ihave:18   Graft:1
+
+509--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+510--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+511--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+512--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+513--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+514--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:28   Graft:1
+
+515--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.667        Gossip:30   Ihave:23   Graft:0
+
+516--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+517--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+518--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+519--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+520--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+521--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.684        Gossip:32   Ihave:21   Graft:2
+
+522--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+523--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+524--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+525--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+526--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+527--Reliability:2.000%    Nodes:20    Latency:4   RMR:0.053        Gossip:20   Ihave:32   Graft:1
+
+528--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.722        Gossip:31   Ihave:18   Graft:1
+
+529--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+530--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+531--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+532--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+533--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+534--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:30   Graft:0
+
+535--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.882        Gossip:32   Ihave:16   Graft:5
+
+536--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:26   Graft:0
+
+537--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:26   Graft:0
+
+538--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:26   Graft:0
+
+539--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:26   Graft:0
+
+540--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:26   Graft:0
+
+541--Reliability:1.600%    Nodes:16    Latency:6   RMR:1.067        Gossip:31   Ihave:13   Graft:3
+
+542--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+543--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+544--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+545--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+546--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+547--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:26   Graft:1
+
+548--Reliability:1.700%    Nodes:17    Latency:6   RMR:1.188        Gossip:35   Ihave:8   Graft:3
+
+549--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+550--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+551--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+552--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+553--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+554--Reliability:1.700%    Nodes:17    Latency:6   RMR:0.125        Gossip:18   Ihave:24   Graft:2
+
+555--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.778        Gossip:32   Ihave:16   Graft:1
+
+556--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:29   Graft:1
+
+557--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:29   Graft:1
+
+558--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:29   Graft:1
+
+559--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:29   Graft:1
+
+560--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:29   Graft:1
+
+561--Reliability:1.900%    Nodes:19    Latency:5   RMR:1.056        Gossip:37   Ihave:12   Graft:1
+
+562--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+563--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+564--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+565--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+566--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+567--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.056        Gossip:19   Ihave:30   Graft:1
+
+568--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.786        Gossip:25   Ihave:13   Graft:2
+
+569--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+570--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+571--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+572--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+573--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+574--Reliability:1.500%    Nodes:15    Latency:5   RMR:0.071        Gossip:15   Ihave:22   Graft:1
+
+575--Reliability:1.800%    Nodes:18    Latency:6   RMR:1.176        Gossip:37   Ihave:12   Graft:2
+
+576--Reliability:1.800%    Nodes:18    Latency:6   RMR:0.059        Gossip:18   Ihave:30   Graft:1
+
+577--Reliability:1.800%    Nodes:18    Latency:6   RMR:0.059        Gossip:18   Ihave:30   Graft:1
+
+578--Reliability:1.800%    Nodes:18    Latency:6   RMR:0.059        Gossip:18   Ihave:30   Graft:1
+
+579--Reliability:1.800%    Nodes:18    Latency:6   RMR:0.059        Gossip:18   Ihave:30   Graft:1
+
+580--Reliability:1.800%    Nodes:18    Latency:6   RMR:0.059        Gossip:18   Ihave:30   Graft:1
+
+581--Reliability:1.900%    Nodes:19    Latency:5   RMR:1.111        Gossip:38   Ihave:12   Graft:0
+
+582--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+583--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+584--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+585--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+586--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+587--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:32   Graft:0
+
+588--Reliability:1.900%    Nodes:19    Latency:4   RMR:1.556        Gossip:46   Ihave:8   Graft:1
+
+589--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+590--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+591--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+592--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+593--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+594--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:35   Graft:0
+
+595--Reliability:1.900%    Nodes:19    Latency:5   RMR:1.278        Gossip:41   Ihave:11   Graft:2
+
+596--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.111        Gossip:20   Ihave:32   Graft:2
+
+597--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.111        Gossip:20   Ihave:32   Graft:2
+
+598--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.111        Gossip:20   Ihave:32   Graft:2
+
+599--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.111        Gossip:20   Ihave:32   Graft:2
+
+600--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.111        Gossip:20   Ihave:32   Graft:2
+
+601--Reliability:1.900%    Nodes:19    Latency:4   RMR:1.056        Gossip:37   Ihave:17   Graft:5
+
+602--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+603--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+604--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+605--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+606--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+607--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.056        Gossip:19   Ihave:31   Graft:1
+
+608--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.647        Gossip:28   Ihave:21   Graft:4
+
+609--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+610--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+611--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+612--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+613--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+614--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:28   Graft:1
+
+615--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.611        Gossip:29   Ihave:20   Graft:5
+
+616--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:26   Graft:3
+
+617--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:26   Graft:3
+
+618--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:26   Graft:3
+
+619--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:26   Graft:3
+
+620--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:26   Graft:3
+
+621--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.778        Gossip:32   Ihave:16   Graft:2
+
+622--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+623--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+624--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+625--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+626--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+627--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.111        Gossip:20   Ihave:28   Graft:2
+
+628--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.824        Gossip:31   Ihave:15   Graft:5
+
+629--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+630--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+631--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+632--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+633--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+634--Reliability:1.800%    Nodes:18    Latency:8   RMR:0.118        Gossip:19   Ihave:24   Graft:2
+
+635--Reliability:1.800%    Nodes:18    Latency:7   RMR:1.000        Gossip:34   Ihave:13   Graft:5
+
+636--Reliability:1.800%    Nodes:18    Latency:7   RMR:0.176        Gossip:20   Ihave:25   Graft:3
+
+637--Reliability:1.800%    Nodes:18    Latency:7   RMR:0.176        Gossip:20   Ihave:25   Graft:3
+
+638--Reliability:1.800%    Nodes:18    Latency:7   RMR:0.176        Gossip:20   Ihave:25   Graft:3
+
+639--Reliability:1.800%    Nodes:18    Latency:7   RMR:0.176        Gossip:20   Ihave:25   Graft:3
+
+640--Reliability:1.800%    Nodes:18    Latency:7   RMR:0.176        Gossip:20   Ihave:25   Graft:3
+
+641--Reliability:1.800%    Nodes:18    Latency:5   RMR:1.059        Gossip:35   Ihave:9   Graft:1
+
+642--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+643--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+644--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+645--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+646--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+647--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.059        Gossip:18   Ihave:26   Graft:1
+
+648--Reliability:1.900%    Nodes:19    Latency:6   RMR:1.222        Gossip:40   Ihave:9   Graft:0
+
+649--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+650--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+651--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+652--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+653--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+654--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.000        Gossip:18   Ihave:31   Graft:0
+
+655--Reliability:1.800%    Nodes:18    Latency:5   RMR:1.059        Gossip:35   Ihave:9   Graft:2
+
+656--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:25   Graft:0
+
+657--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:25   Graft:0
+
+658--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:25   Graft:0
+
+659--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:25   Graft:0
+
+660--Reliability:1.800%    Nodes:18    Latency:5   RMR:0.000        Gossip:17   Ihave:25   Graft:0
+
+661--Reliability:1.800%    Nodes:18    Latency:4   RMR:1.000        Gossip:34   Ihave:16   Graft:4
+
+662--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+663--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+664--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+665--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+666--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+667--Reliability:1.800%    Nodes:18    Latency:4   RMR:0.059        Gossip:18   Ihave:29   Graft:1
+
+668--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.889        Gossip:34   Ihave:12   Graft:0
+
+669--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+670--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+671--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+672--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+673--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+674--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.000        Gossip:18   Ihave:28   Graft:0
+
+675--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.778        Gossip:32   Ihave:13   Graft:0
+
+676--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:27   Graft:0
+
+677--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:27   Graft:0
+
+678--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:27   Graft:0
+
+679--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:27   Graft:0
+
+680--Reliability:1.900%    Nodes:19    Latency:5   RMR:0.000        Gossip:18   Ihave:27   Graft:0
+
+681--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.778        Gossip:32   Ihave:17   Graft:2
+
+682--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+683--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+684--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+685--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+686--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+687--Reliability:1.900%    Nodes:19    Latency:6   RMR:0.167        Gossip:21   Ihave:29   Graft:3
+
+688--Reliability:1.900%    Nodes:19    Latency:4   RMR:1.111        Gossip:38   Ihave:12   Graft:2
+
+689--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+690--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+691--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+692--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+693--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+694--Reliability:1.900%    Nodes:19    Latency:4   RMR:0.111        Gossip:20   Ihave:30   Graft:2
+
+695--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.938        Gossip:31   Ihave:9   Graft:1
+
+696--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.062        Gossip:17   Ihave:23   Graft:1
+
+697--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.062        Gossip:17   Ihave:23   Graft:1
+
+698--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.062        Gossip:17   Ihave:23   Graft:1
+
+699--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.062        Gossip:17   Ihave:23   Graft:1
+
+700--Reliability:1.700%    Nodes:17    Latency:5   RMR:0.062        Gossip:17   Ihave:23   Graft:1
+
+701--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.938        Gossip:31   Ihave:13   Graft:6
+
+702--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+703--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+704--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+705--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+706--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+707--Reliability:1.700%    Nodes:17    Latency:4   RMR:0.062        Gossip:17   Ihave:22   Graft:1
+
+708--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.800        Gossip:27   Ihave:13   Graft:2
+
+709--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+710--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+711--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+712--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+713--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+714--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:23   Graft:0
+
+715--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.933        Gossip:29   Ihave:12   Graft:2
+
+716--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.067        Gossip:16   Ihave:24   Graft:1
+
+717--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.067        Gossip:16   Ihave:24   Graft:1
+
+718--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.067        Gossip:16   Ihave:24   Graft:1
+
+719--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.067        Gossip:16   Ihave:24   Graft:1
+
+720--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.067        Gossip:16   Ihave:24   Graft:1
+
+721--Reliability:1.600%    Nodes:16    Latency:4   RMR:1.000        Gossip:30   Ihave:10   Graft:1
+
+722--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+723--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+724--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+725--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+726--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+727--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+728--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.867        Gossip:28   Ihave:11   Graft:1
+
+729--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+730--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+731--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+732--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+733--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+734--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.067        Gossip:16   Ihave:23   Graft:1
+
+735--Reliability:1.600%    Nodes:16    Latency:5   RMR:1.000        Gossip:30   Ihave:12   Graft:2
+
+736--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+737--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+738--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+739--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+740--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+741--Reliability:1.600%    Nodes:16    Latency:4   RMR:1.133        Gossip:32   Ihave:10   Graft:0
+
+742--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+743--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+744--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+745--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+746--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+747--Reliability:1.600%    Nodes:16    Latency:4   RMR:0.000        Gossip:15   Ihave:27   Graft:0
+
+748--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.667        Gossip:25   Ihave:15   Graft:0
+
+749--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+750--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+751--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+752--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+753--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+754--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+755--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.467        Gossip:22   Ihave:21   Graft:2
+
+756--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:26   Graft:0
+
+757--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:26   Graft:0
+
+758--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:26   Graft:0
+
+759--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:26   Graft:0
+
+760--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:26   Graft:0
+
+761--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.800        Gossip:27   Ihave:18   Graft:6
+
+762--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+763--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+764--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+765--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+766--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+767--Reliability:1.600%    Nodes:16    Latency:6   RMR:0.000        Gossip:15   Ihave:24   Graft:0
+
+768--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.733        Gossip:26   Ihave:14   Graft:0
+
+769--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+770--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+771--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+772--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+773--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+774--Reliability:1.600%    Nodes:16    Latency:5   RMR:0.000        Gossip:15   Ihave:25   Graft:0
+
+775--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.867        Gossip:28   Ihave:10   Graft:2
+
+776--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.000        Gossip:15   Ihave:21   Graft:0
+
+777--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.000        Gossip:15   Ihave:21   Graft:0
+
+778--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.000        Gossip:15   Ihave:21   Graft:0
+
+779--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.000        Gossip:15   Ihave:21   Graft:0
+
+780--Reliability:1.600%    Nodes:16    Latency:3   RMR:0.000        Gossip:15   Ihave:21   Graft:0
+
+781--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.846        Gossip:24   Ihave:10   Graft:1
+
+782--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+783--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+784--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+785--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+786--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+787--Reliability:1.400%    Nodes:14    Latency:5   RMR:0.000        Gossip:13   Ihave:20   Graft:0
+
+788--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.833        Gossip:11   Ihave:2   Graft:0
+
+789--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+790--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+791--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+792--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+793--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+794--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:7   Graft:0
+
+795--Reliability:0.700%    Nodes:7    Latency:2   RMR:1.667        Gossip:16   Ihave:0   Graft:0
+
+796--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+797--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+798--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+799--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+800--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+801--Reliability:0.700%    Nodes:7    Latency:2   RMR:1.167        Gossip:13   Ihave:4   Graft:0
+
+802--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+803--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+804--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+805--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+806--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+807--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:11   Graft:0
+
+808--Reliability:0.700%    Nodes:7    Latency:2   RMR:1.333        Gossip:14   Ihave:4   Graft:0
+
+809--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+810--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+811--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+812--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+813--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+814--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+815--Reliability:0.700%    Nodes:7    Latency:4   RMR:1.167        Gossip:13   Ihave:2   Graft:1
+
+816--Reliability:0.700%    Nodes:7    Latency:4   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+817--Reliability:0.700%    Nodes:7    Latency:4   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+818--Reliability:0.700%    Nodes:7    Latency:4   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+819--Reliability:0.700%    Nodes:7    Latency:4   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+820--Reliability:0.700%    Nodes:7    Latency:4   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+821--Reliability:0.700%    Nodes:7    Latency:2   RMR:1.833        Gossip:17   Ihave:2   Graft:0
+
+822--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+823--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+824--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+825--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+826--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+827--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:13   Graft:0
+
+828--Reliability:0.700%    Nodes:7    Latency:3   RMR:1.167        Gossip:13   Ihave:3   Graft:0
+
+829--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+830--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+831--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+832--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+833--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+834--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+835--Reliability:0.900%    Nodes:9    Latency:3   RMR:1.000        Gossip:16   Ihave:3   Graft:0
+
+836--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:11   Graft:0
+
+837--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:11   Graft:0
+
+838--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:11   Graft:0
+
+839--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:11   Graft:0
+
+840--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:11   Graft:0
+
+841--Reliability:0.700%    Nodes:7    Latency:2   RMR:2.000        Gossip:18   Ihave:0   Graft:0
+
+842--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+843--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+844--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+845--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+846--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+847--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:12   Graft:0
+
+848--Reliability:0.900%    Nodes:9    Latency:3   RMR:1.500        Gossip:20   Ihave:4   Graft:0
+
+849--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+850--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+851--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+852--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+853--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+854--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:16   Graft:0
+
+855--Reliability:0.900%    Nodes:9    Latency:4   RMR:1.125        Gossip:17   Ihave:4   Graft:0
+
+856--Reliability:0.900%    Nodes:9    Latency:4   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+857--Reliability:0.900%    Nodes:9    Latency:4   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+858--Reliability:0.900%    Nodes:9    Latency:4   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+859--Reliability:0.900%    Nodes:9    Latency:4   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+860--Reliability:0.900%    Nodes:9    Latency:4   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+861--Reliability:0.900%    Nodes:9    Latency:3   RMR:1.000        Gossip:16   Ihave:2   Graft:0
+
+862--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+863--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+864--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+865--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+866--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+867--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:10   Graft:0
+
+868--Reliability:0.900%    Nodes:9    Latency:3   RMR:1.375        Gossip:19   Ihave:2   Graft:0
+
+869--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+870--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+871--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+872--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+873--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+874--Reliability:0.900%    Nodes:9    Latency:3   RMR:0.000        Gossip:8   Ihave:13   Graft:0
+
+875--Reliability:0.700%    Nodes:7    Latency:3   RMR:1.333        Gossip:14   Ihave:2   Graft:0
+
+876--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+877--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+878--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+879--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+880--Reliability:0.700%    Nodes:7    Latency:3   RMR:0.000        Gossip:6   Ihave:10   Graft:0
+
+881--Reliability:0.800%    Nodes:8    Latency:2   RMR:1.000        Gossip:14   Ihave:2   Graft:0
+
+882--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+883--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+884--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+885--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+886--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+887--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+888--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.571        Gossip:11   Ihave:6   Graft:0
+
+889--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+890--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+891--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+892--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+893--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+894--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+895--Reliability:0.800%    Nodes:8    Latency:3   RMR:1.000        Gossip:14   Ihave:3   Graft:0
+
+896--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+897--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+898--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+899--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+900--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+901--Reliability:0.700%    Nodes:7    Latency:2   RMR:1.167        Gossip:13   Ihave:2   Graft:0
+
+902--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+903--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+904--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+905--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+906--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+907--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:9   Graft:0
+
+908--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.667        Gossip:10   Ihave:4   Graft:0
+
+909--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+910--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+911--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+912--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+913--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+914--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:8   Graft:0
+
+915--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.714        Gossip:12   Ihave:6   Graft:0
+
+916--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:11   Graft:0
+
+917--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:11   Graft:0
+
+918--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:11   Graft:0
+
+919--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:11   Graft:0
+
+920--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:11   Graft:0
+
+921--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.714        Gossip:12   Ihave:6   Graft:1
+
+922--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+923--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+924--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+925--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+926--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+927--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+928--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.714        Gossip:12   Ihave:5   Graft:0
+
+929--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+930--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+931--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+932--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+933--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+934--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:10   Graft:0
+
+935--Reliability:0.800%    Nodes:8    Latency:3   RMR:1.000        Gossip:14   Ihave:2   Graft:0
+
+936--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+937--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+938--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+939--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+940--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:9   Graft:0
+
+941--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.857        Gossip:13   Ihave:2   Graft:0
+
+942--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+943--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+944--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+945--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+946--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+947--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:8   Graft:0
+
+948--Reliability:0.800%    Nodes:8    Latency:2   RMR:1.857        Gossip:20   Ihave:1   Graft:0
+
+949--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+950--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+951--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+952--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+953--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+954--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+955--Reliability:0.800%    Nodes:8    Latency:2   RMR:1.571        Gossip:18   Ihave:6   Graft:0
+
+956--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:17   Graft:0
+
+957--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:17   Graft:0
+
+958--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:17   Graft:0
+
+959--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:17   Graft:0
+
+960--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:17   Graft:0
+
+961--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.833        Gossip:11   Ihave:11   Graft:1
+
+962--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+963--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+964--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+965--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+966--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+967--Reliability:0.700%    Nodes:7    Latency:2   RMR:0.000        Gossip:6   Ihave:15   Graft:0
+
+968--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+969--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+970--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+971--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+972--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+973--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+974--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:15   Graft:0
+
+975--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.143        Gossip:8   Ihave:13   Graft:0
+
+976--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+977--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+978--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+979--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+980--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:14   Graft:0
+
+981--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.143        Gossip:8   Ihave:12   Graft:0
+
+982--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+983--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+984--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+985--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+986--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+987--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+988--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.143        Gossip:8   Ihave:12   Graft:0
+
+989--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+990--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+991--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+992--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+993--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+994--Reliability:0.800%    Nodes:8    Latency:2   RMR:0.000        Gossip:7   Ihave:13   Graft:0
+
+995--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.143        Gossip:8   Ihave:11   Graft:0
+
+996--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:12   Graft:0
+
+997--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:12   Graft:0
+
+998--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:12   Graft:0
+
+999--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:12   Graft:0
+
+1000--Reliability:0.800%    Nodes:8    Latency:3   RMR:0.000        Gossip:7   Ihave:12   Graft:0
+
+AVERAGE--Reliability:2.766%    Nodes:27    Latency:6   RMR:0.183        Gossip:31   Ihave:39   Graft:1
+
+Degree:3.25  min:1    max:4     shortest path:0.10 
+
+===================================================
+SIMULATION COMPLETED IN: 26.965321 SECONDS
+SIMULATED EVENTS: 1435988
+EVENTS PER SECOND: 53253.13946754055
+===================================================

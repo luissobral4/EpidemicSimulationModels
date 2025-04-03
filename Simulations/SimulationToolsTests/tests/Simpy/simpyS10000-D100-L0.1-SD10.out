@@ -1,0 +1,9 @@
+> MODEL PARAMETERS:
+>> TOTAL NODES: 10000
+>> END TIME:  200.0
+>> TOTAL SPMD PROCESSES: 1
+>> MSGs SENDED: 2115140
+>> MSGs RECEIVED: 2115110
+>> cancelled events: 173582
+>> executed events: 2286884
+>> execution time: 124.06697201728821

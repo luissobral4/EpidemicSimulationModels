@@ -1,0 +1,15 @@
+Simian JIT PDES Engine (1.65)
+(c) Copyright 2015-. Triad National Security, LLC. All rights reserved. Released under BSD 3-clause license.
+Author: Nandakishore Santhi (with other contributors as acknowledged in source code)
+
+===================================================
+------------SIMIAN-PIE JIT PDES ENGINE-------------
+------------       VERSION: 1.65      -------------
+===================================================
+MPI: OFF
+===================================================
+
+SIMULATION COMPLETED IN: 3148.547308329493 SECONDS
+SIMULATED EVENTS: 29587803
+EVENTS PER SECOND: 9397.287098632873
+===================================================
